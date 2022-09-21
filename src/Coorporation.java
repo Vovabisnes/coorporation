@@ -174,11 +174,6 @@ public static void main(String[] args) throws IOException {
             System.out.println("1.Edit name\n 2.Edit surname\n 3.Edit Age \n 4.Edit PlaceofWork \n 5. Edit \n 6.Exit ");
             int num = scanner2.nextInt();
             switch (num){
-                case 1: {
-                    System.out.println("Enter the name:");
-                    employee.setName(scanner2.next());
-                    break;
-                }
                 case 2: {
                     System.out.println("Enter the surname:");
                     employee.setSurname(scanner2.next());
